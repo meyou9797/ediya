@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    height:50px;
+    position:relative;
+    margin:10px;
+}
+#header h1{
+    width:50%;
+    margin:0 auto;
+}
+#header h1 a{}
+#header h1 img{
+    width:100%;
+}
+
+.panel{
+    position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-16px;
+    width:45px;
+    height: 33px;
+    background:url(../images/hIcon01.jpg)no-repeat;
+    text-indent: -9999px;
+}
+.panel a{
+    height:100%;
+    display:block;
+}
+
+.login{
+    width:32px;
+    height: 33px;
+    position:absolute;
+    margin-top:-17px;
+    right:0;
+    top:50%;
+    background:url(../images/loginIcon.png)no-repeat;
+    
+}
+.login a{
+    text-indent: -9999px;
+    height:100%;
+    display:block;
+}
+
+
+/*푸터*/
+#footer{
+    background:#2c4381;
+    text-align: center;
+    color:#c1c1c1;
+    padding:20px;
+}
+#footer h2{
+    margin-bottom: 10px;
+}
+#footer h2 img{}
+
+.fInfo{}
+.fInfo li{
+    display:inline-block;
+    font-size:12px;
+}
+.fInfo li a{
+    color:#c1c1c1;
+}
+.fInfoTop{
+    margin-bottom:15px;
+}
+.fInfoTop li::after{
+    content:"";
+    display:inline-block;
+    width: 1px;
+    height: 10px;
+    background:#c1c1c1;
+    margin:0 5px;
+}
+.fInfoTop li:last-child::after{
+    display:none;
+}
+.fIcon{
+    margin-top:25px;
+}
+.fIcon li{}
+.fIcon li a{}
+.fIcon li img{}

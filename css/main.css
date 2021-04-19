@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+/*mainSlider*/
+.mainSlider{
+    position:relative;
+}
+.mainSlider img{
+    max-width: 100%;
+    display:block;
+}
+/*슬릭버튼*/
+.prevBtn,.nextBtn{
+    background:url(../images/sliderLbtn.png)no-repeat;
+    width:38px;
+    height: 74px;
+    position:absolute;
+    top:50%;
+    margin-top:-37px;
+    text-indent:-9999px;
+    z-index:1;
+}
+.prevBtn a,.nextBtn a{
+    display:block;
+    height: 100%;
+}
+.nextBtn{
+    background-image:url(../images/sliderRbtn.png);
+    right: 0;
+}
+.arrowBtn{
+}
+
+
+.arrowBtn li{
+    float:left;
+    position:absolute;
+    top:50%;
+    margin-top:-37px;
+    background:url(../images/sliderLbtn.png)no-repeat center center;
+    height: 74px;
+    width:38px;
+    text-indent:-9999px;
+}
+.arrowBtn li a{
+    display:block;
+    height: 100%;
+}
+
+.arrowBtn li.arrowRbtn{   
+    right:0;
+    background-image:url(../images/sliderRbtn.png);
+}
+
+/*mainCon01*/
+.mainCon01{
+    padding:70px 20px;    
+}
+.con01L{
+    width:60%;
+    float:left;
+}
+.moreBtn{
+    font-size:13px;
+    margin-top:20px;
+    text-align: center;
+    height:30px;
+    line-height:30px;
+    width:80%;
+    border: 1px solid #333;
+}
+.moreBtn a{
+    display:block;
+    height:100%:
+}
+.con01L h2{
+    margin-bottom:20px;
+}
+.con01L h2 img{
+    width:50%;
+}
+
+.con01Txt{
+}
+.con01Txt p{
+    font-size:12px;
+    font-weight:400;
+}
+
+
+.con01R{
+    width:40%;
+    float:left;
+    margin-top:10px;
+}
+.con01R img{
+    width:100%;
+    margin-left:7px;
+}
+
+.con01Bg{
+    background:url(../images/con01ImgBg.png)no-repeat;
+    background-size:100%;
+    padding-top:51px;
+    padding-bottom:10px;
+}
+
+
+/*mainCon02*/
+.mainCon02{
+    text-align: center;
+}
+.con02Bg{
+    background:url(../images/mainCon02Bg.png)no-repeat center center;
+    background-size:cover;
+}
+.con02Tit{
+    padding-top:20px;
+}
+.con02Tit h2{
+    margin-bottom:10px;
+}
+.con02Tit h2 img{
+    width:15%;
+}
+.con02Tit p{
+    font-size:11px;
+    margin-bottom:40px;
+}
+.con02List{
+    text-align: center;
+}
+.con02List li{
+    margin-right:20px;
+    width:40%;
+    display:inline-block;
+}
+.con02List li:nth-child(2n){
+    margin-right:0;
+}
+.con02List li img{
+    width:80%
+}
+.con02List li h3{
+    font-size:14px;
+    font-weight: 500;
+    margin:10px 0;
+}
+.con02List li a{}
+
+.con02ListBg{
+    background:#fff;
+    border-radius:35px;
+}
+
+/*mainCon03*/
+.mainCon03{
+    text-align: center;
+}
+
+.con03Tit{
+    margin-top:60px;
+}
+.con03Tit h2{ 
+}
+.con03Tit h2 img{
+    width:25%;
+}
+.con03Tit p{
+    margin-top:10px;
+    font-size:11px;
+    font-weight: 400;
+}
+.con03Tit p::after{
+    content:"";
+    display:block;
+    width:50%;
+    margin:15px auto;
+    border:1px solid #38508e;
+}
+.con03List{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+.con03List li{
+    width:33.33%;
+    float:left;
+    margin-top:10px;
+}
+.con03List li p{
+    font-size:11px;
+    margin-top:10px;
+}
+.con03List li a{}
+.con03List li img{
+    width:80%;
+}
+
+/*mainCon04*/
+.mainCon04{
+    margin-top:60px;
+    text-align: center;
+    color:#fff;
+}
+.con04Bg{
+    background:#38508e;
+    border-radius:30px;
+    width:90%;
+    margin:0 auto;
+    padding-bottom:10px;
+    
+}
+.con04Bg h2{
+    padding-top:20px;
+    font-size:18px;
+}
+.con04Bg p{
+    font-size:12px;
+    margin-top:10px;
+    font-weight: 300;
+}
+
+.findBtn{    
+    border:1px solid #fff;
+    width:60%;
+    height: 50px;
+    line-height:50px;
+    margin:20px auto;
+    background:url(../images/serchIcon.png)no-repeat 90% center;
+    background-size:10%;
+}
+.findBtn a{
+    font-size:12px;
+    color:#fff;
+    height: 100%;
+    display:block;
+}
+
+/*mainCon05*/
+.mainCon05{
+    margin-top:80px;
+    padding:30px 0 50px 0;
+    background:url(../images/mainCon04Bg.png)no-repeat center center;
+    background-size:cover;
+    text-align: center;
+    color:#fff;
+}
+.con04Txt{
+
+}
+.con04Txt h2{
+    margin:0 auto;
+    width:20%;
+}
+.con04Txt h2 img{
+    width:100%;
+}
+.con04Txt p,.con04Txt span{
+    font-size:13px;
+}
+.con04Txt p{
+    color:#dfdfdf;
+    font-size:10px;
+    line-height:17px;
+}
+.con04Btn{    
+    margin-top:20px;
+}
+.con04Btn li{
+    display:inline-block;
+    width:45%;
+    height: 50px;
+    line-height:50px;
+    border:1px solid #fff;
+    box-sizing: border-box;
+}
+.con04Btn li a{
+    color:#fff;
+    font-size:14px;
+    height: 100%;
+    display:block;
+}
